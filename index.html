@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        #header{
+            width: 980px;
+            height: 100px;
+            background-color: #2ecc71;
+            color: #2c3e50;
+            text-align: center;
+            margin: 0px auto;
+            padding: 15px;
+            border: 1px solid #27ae60;
+            border-radius: 5px;
+
+        }
+        #header:hover h1 {
+            text-shadow: 2px 2px 5px #34495e;
+        }
+        
+        #box{
+            width: 980px;
+            height: auto;
+            margin: 5px auto 0px auto;
+            position: relative;
+            
+        }
+        #sidebar{
+            width: 200px;
+            height: 300px;
+            float: right;
+            position: absolute;
+            right: 0px;
+            margin-top: 5px;
+            background-color: #3498db;
+            border-radius: 5px;
+
+        }
+        #mainbox{
+            width: 490px;
+            height: 300px;
+            position: absolute;
+            right: 210px;
+            margin-top: 5px;
+        }
+        #mainbox a{
+            color: black;
+            font-size: 18px;
+
+        }
+        #tabligh{
+            width: 270px;
+            height: 300px;
+            float: left;
+            position: absolute;
+            left: 0px;
+            margin-top: 5px;
+        }
+        #tabligh a{
+            display: block;
+            border: 1px solid #27ae60;
+            width: 150px;
+            height: 40px;
+            margin: 5px auto;
+            text-align: center;
+            padding: 5px;
+            text-decoration: none;
+            font-size: 20px;
+            background-color: #ecf0f1;
+            border-radius: 5px;
+            color: #34495e;
+        }
+        #footer{
+            width: 980px;
+            height: auto;
+            background-color: #ecf0f1;
+            border: 1px solid #bdc3c7;
+            margin-top:350px;
+            margin-left:auto;
+            margin-right: auto;
+            text-align: center;
+            padding: 15px;
+
+        }
+
+    </style>
+</head>
+<body>
+    <div id="header">
+        <h1>Hello world</h1>
+        <p>this is a my first web site</p>
+    </div>
+    <div id="box">
+        <div id="sidebar">
+            <h1>Side-Bar</h1>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+        </div>
+        <div id="mainbox">
+            <h1>Same Page Different Stylesheets</h1>
+            <p>This is a demonstration of how different stylesheets can change the layout of your HTML page. You can change the layout of this page by selecting different stylesheets in the menu, or by selecting one of the following links:</p>
+            <a href="#">stylesheets1</a>
+            <a href="#">stylesheets2</a>
+            <a href="#">stylesheets3</a>
+            <a href="#">stylesheets4</a>
+            <h1>No Styles</h1>
+            <p>This page uses DIV elements to group different sections of the HTML page. Click here to see how the page looks like with no stylesheet:</p>
+            <a href="#">nostylesheets,</a>
+        </div>
+        <div id="tabligh">
+            <a href="#">stylesheets1</a>
+            <a href="#">stylesheets2</a>
+            <a href="#">stylesheets3</a>
+            <a href="#">stylesheets4</a>
+        </div>
+
+    </div>
+    <div id="footer">
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
+    </div>
+</body>
+</html>
